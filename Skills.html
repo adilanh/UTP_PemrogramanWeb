@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skills - Adila Nurul Hidayah</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1;
+      padding: 60px 20px;
+    }
+
+    .navbar-custom {
+      background-color: #f5e8d5 !important;
+    }
+
+    .navbar-brand, .nav-link {
+      color: #333 !important;
+    }
+
+    .nav-link.active {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    .skill-card {
+      background-color: #fce7d6;
+      border: 1px solid #e0c5aa;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      transition: all 0.3s ease;
+    }
+
+    .skill-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    }
+
+    .skill-card h5 {
+      color: #7a3e2f;
+    }
+
+    footer {
+      background-color: #f5e8d5;
+      text-align: center;
+      padding: 15px 0;
+      color: #333;
+      font-size: 0.9rem;
+      border-top: 1px solid #ddd;
+    }
+
+    .footer-icons {
+      margin-top: 8px;
+    }
+
+    .footer-icons a {
+      color: #333;
+      margin: 0 10px;
+      font-size: 1.2rem;
+      transition: color 0.3s;
+    }
+
+    .footer-icons a:hover {
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-custom shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="home.html">Adila's Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link active" href="skills.html">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Main Content -->
+<main class="container">
+  <h2 class="text-center mb-5" style="color: #7a3e2f;">My Skills</h2>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="skill-card">
+        <h5>HTML & CSS</h5>
+        <p>Proficient in creating responsive and semantic layouts using HTML5 and CSS3.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="skill-card">
+        <h5>RStudio</h5>
+        <p>Capable of performing data analysis, visualization, and statistical tasks using R and RStudio.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="skill-card">
+        <h5>Figma UI/UX</h5>
+        <p>Skilled in designing user interfaces and creating interactive prototypes using Figma.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="skill-card">
+        <h5>Python</h5>
+        <p>Comfortable working with Python for scripting, data processing, and basic ML tasks.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="skill-card">
+        <h5>SQL</h5>
+        <p>Ability to write queries for data retrieval and database interaction.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="skill-card">
+        <h5>Git & GitHub</h5>
+        <p>Version control experience with Git and collaboration via GitHub.</p>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- Footer -->
+<footer>
+  &copy; 2025 Adila Nurul Hidayah. All rights reserved.
+  <div class="footer-icons">
+    <a href="https://www.instagram.com/adilanh_?igsh=dGE1am9idnlseXk2" target="_blank" aria-label="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://github.com/adilanh" target="_blank" aria-label="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
